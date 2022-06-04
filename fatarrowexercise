@@ -1,0 +1,16 @@
+function divideBy(x, y) {
+  return x / y;
+}
+// TODO: Convert divideBy() to arrow function
+let divideBy = (x, y) => x / y;
+
+function logToConsole() {
+  let msg = "MIT Coding Certificate";
+  console.log(msg);
+}
+
+let logToConsole = () => {
+  let msg = "MIT Coding Certificate";
+  console.log(msg)
+}
+// TODO: Convert logToConsole() to arrow function
